@@ -1,3 +1,17 @@
 a {
+
   text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+}
+
+.firstletter {
+  color: #50da45;
+}
+
+
+h1 {
+    font-family: "Helvetica Neue Light", Helvetica, sans-serif;
 }
