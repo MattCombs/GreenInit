@@ -3,11 +3,20 @@
 body {
   color: black;
   font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
 }
+
+h1{
+  text-align: center;
+}
+
+
 
 p {
   font-family: 'EB Garamond', serif;
-  
+  margin: 2em;
+
 }
 #masthead {
   background-color: #242424;
@@ -15,16 +24,18 @@ p {
 
 .main-nav {
   border: 1px solid black;
+  margin: 0;
 }
 
 a {
-
   text-decoration: none;
   color: white;
 }
 
 nav li {
+  padding-right: 2em;
     list-style: none;
+    text-align: right;
 }
 
 .firstletter {
