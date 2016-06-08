@@ -1,6 +1,26 @@
+/* Head */
+
+body {
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  
+}
+#masthead {
+  background-color: #242424;
+}
+
+.main-nav {
+  border: 1px solid black;
+}
+
 a {
 
   text-decoration: none;
+  color: white;
 }
 
 nav li {
@@ -12,6 +32,15 @@ nav li {
 }
 
 
-h1 {
-    font-family: "Helvetica Neue Light", Helvetica, sans-serif;
+
+/* Body */
+
+
+
+
+
+/* About */
+
+.AboutHeader {
+  text-align: center;
 }
