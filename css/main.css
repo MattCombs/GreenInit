@@ -12,9 +12,6 @@ h1{
 }
 h2{
   margin-left: 4em;
-  border-radius: 5px;
-  padding: 0;
-  border-color: #242424;
 }
 
 
@@ -43,13 +40,23 @@ nav li {
     text-align: right;
 }
 
+/* SPANS RIGHT HERE */
+
 .firstletter {
   color: #50da45;
   margin: 0;
   padding: 0;
 }
 
+#SOLAR {
+  background-color: #ff7373
+}
+#WATER {
+  background-color: #0099cc
+}
+#GREEN {
 
+}
 
 /* Body */
 
