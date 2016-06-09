@@ -10,7 +10,12 @@ body {
 h1{
   text-align: center;
 }
-
+h2{
+  margin-left: 4em;
+  border-radius: 5px;
+  padding: 0;
+  border-color: #242424;
+}
 
 
 p {
@@ -40,6 +45,8 @@ nav li {
 
 .firstletter {
   color: #50da45;
+  margin: 0;
+  padding: 0;
 }
 
 
