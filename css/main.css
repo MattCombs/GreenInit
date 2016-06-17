@@ -11,17 +11,26 @@ html {
 
 /* Head */
 
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 1em 0;
+}
 
 body {
   color: black;
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 1px;
-  margin: 0;
+
 }
 
 h1{
   text-align: center;
-  margin: 0;
+  padding-top: 2em;
+
 }
 h2{
   margin-left: 4em;
@@ -64,7 +73,6 @@ div p {
 }
 
 .main-nav {
-  border: 1px solid black;
   margin: 0;
   text-align: right;
 }
