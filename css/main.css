@@ -1,4 +1,16 @@
+/*
+Add a Background for the whole page
+html {
+  background: url(/assets/img/bg1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
 /* Head */
+
 
 body {
   color: black;
@@ -9,6 +21,7 @@ body {
 
 h1{
   text-align: center;
+  margin: 0;
 }
 h2{
   margin-left: 4em;
@@ -22,11 +35,38 @@ p {
 }
 #masthead {
   background-color: #242424;
+  width: 100%;
+  position: fixed;
+  opacity: 0.7%;
+}
+#headingI {
+  background: url(/assets/img/Smog.jpg) no-repeat center center;
+  opacity: 0.5;
+  height: 100vh;
+  max-width: 100%;
+  color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+div p {
+  margin: 0;
+}
+#headingII {
+  background: url(/assets/img/solution.jpg) no-repeat center center;
+  opacity: 0.5;
+  height: 100vh;
+  max-width: 100%;
+  color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .main-nav {
   border: 1px solid black;
   margin: 0;
+  text-align: right;
 }
 
 a {
@@ -37,7 +77,7 @@ a {
 nav li {
   padding-right: 2em;
     list-style: none;
-    text-align: right;
+    display: inline;
 }
 
 /* SPANS RIGHT HERE */
@@ -49,13 +89,35 @@ nav li {
 }
 
 #SOLAR {
-  background-color: #ff7373
+  background: url(/assets/img/solar.jpg) no-repeat center center;
+  opacity: 0.5;
+  height: 100vh;
+  max-width: 100%;
+  color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 #WATER {
-  background-color: #0099cc
+  background: url(/assets/img/water.jpg) no-repeat center center;
+  opacity: 0.5;
+  height: 100vh;
+  max-width: 100%;
+  color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 #GREEN {
-
+background: url(/assets/img/bg1.jpg) no-repeat center center;
+opacity: 0.5;
+height: 100vh;
+max-width: 100%;
+overflow: hidden;
+color: white;
+margin: 0;
+padding: 0;
+border: 0;
 }
 
 /* Body */
@@ -65,7 +127,16 @@ nav li {
 
 
 /* About */
-
+#About {
+  background: url(/assets/img/bg3.jpg) no-repeat center center;
+  opacity: 0.5;
+  height: 100vh;
+  max-width: 100%;
+  color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 .AboutHeader {
   text-align: center;
 }
