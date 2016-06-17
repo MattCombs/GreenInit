@@ -20,6 +20,14 @@ header {
   padding: 1em 0;
 }
 
+#herostatement {
+  text-align: center;
+  text-rendering: auto;
+  text-transform: uppercase;
+  font-size: 300%;
+  height: 100vh;
+}
+
 body {
   color: black;
   font-family: 'Quicksand', sans-serif;
@@ -34,6 +42,8 @@ h1{
 }
 h2{
   margin-left: 4em;
+  padding-top: 2em;
+  padding-left: 4em;
 }
 
 
@@ -136,7 +146,7 @@ border: 0;
 
 /* About */
 #About {
-  background: url(/assets/img/bg3.jpg) no-repeat center center;
+  background: url(/assets/img/about.jpg) no-repeat center center;
   opacity: 0.5;
   height: 100vh;
   max-width: 100%;
