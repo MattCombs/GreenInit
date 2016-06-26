@@ -14,6 +14,7 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 header {
@@ -53,10 +54,10 @@ p {
   text-align: center;
 }
 
-@media (min-width: 45em){
-  p {
-    width: 55%;
-  }
+q {
+  text-align: center;
+  font-style: italic;
+
 }
 
 
@@ -64,7 +65,7 @@ p {
   background-color: #242424;
   width: 100%;
   position: fixed;
-  opacity: 0.7%;
+  opacity: .7%;
   height: 2.5%;
 }
 /* Trying to shrink masthead into the "three lines" box with bump menu.
@@ -126,7 +127,7 @@ nav li {
 .h1letter {
   font-size: 200%;
 }
-#SOLAR {
+#solar {
   background: url(/assets/img/solar.jpg) no-repeat center center;
   opacity: 0.5;
   height: 100vh;
@@ -136,7 +137,7 @@ nav li {
   padding: 0;
   border: 0;
 }
-#WATER {
+#water {
   background: url(/assets/img/water.jpg) no-repeat center center;
   opacity: 0.5;
   height: 100vh;
@@ -146,7 +147,7 @@ nav li {
   padding: 0;
   border: 0;
 }
-#GREEN {
+#green {
 background: url(/assets/img/bg1.jpg) no-repeat center center;
 opacity: 0.5;
 height: 100vh;
@@ -165,7 +166,7 @@ border: 0;
 
 
 /* About */
-#ABOUT {
+#about {
   opacity: 0.5;
   height: 100vh;
   max-width: 100%;
@@ -177,4 +178,9 @@ border: 0;
 .about {
   text-align: center;
   color: black;
+}
+@media (min-width: 45em){
+  p {
+    width: 55%;
+  }
 }
