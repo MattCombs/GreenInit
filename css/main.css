@@ -32,8 +32,7 @@ header {
 body {
   color: black;
   font-family: 'Quicksand', sans-serif;
-  letter-spacing: 1px;
-
+  letter-spacing: .1em;
 }
 
 h1{
@@ -50,28 +49,46 @@ h2{
 
 p {
   font-family: 'EB Garamond', serif;
-  margin: 2em;
-
+  margin: 2em auto;
+  text-align: center;
 }
+
+@media (min-width: 45em){
+  p {
+    width: 55%;
+  }
+}
+
+
 #masthead {
   background-color: #242424;
   width: 100%;
   position: fixed;
   opacity: 0.7%;
+  height: 2.5%;
 }
+/* Trying to shrink masthead into the "three lines" box with bump menu.
+@media (min-width: 50em){
+  #masthead{
+
+  }
+}
+*/
 #headingI {
   background: url(/assets/img/smog.jpg) no-repeat center center;
   opacity: 0.5;
   height: 100vh;
   max-width: 100%;
-  color: white;
+  color: black;
   margin: 0;
   padding: 0;
   border: 0;
 }
+/*
 div p {
   margin: 0;
 }
+*/
 #headingII {
   background: url(/assets/img/solution.jpg) no-repeat center center;
   opacity: 0.5;
@@ -85,7 +102,7 @@ div p {
 
 .main-nav {
   margin: 0;
-  text-align: right;
+  float: right;
 }
 
 a {
@@ -101,12 +118,14 @@ nav li {
 
 /* SPANS RIGHT HERE */
 
-.firstletter {
+.greenletter {
   color: #50da45;
   margin: 0;
   padding: 0;
 }
-
+.h1letter {
+  font-size: 200%;
+}
 #SOLAR {
   background: url(/assets/img/solar.jpg) no-repeat center center;
   opacity: 0.5;
@@ -146,16 +165,16 @@ border: 0;
 
 
 /* About */
-#About {
-  background: url(/assets/img/about.jpg) no-repeat center center;
+#ABOUT {
   opacity: 0.5;
   height: 100vh;
   max-width: 100%;
-  color: white;
+  color: black;
   margin: 0;
   padding: 0;
   border: 0;
 }
-.AboutHeader {
+.about {
   text-align: center;
+  color: black;
 }
