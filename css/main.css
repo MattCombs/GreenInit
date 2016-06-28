@@ -17,10 +17,6 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
   text-align: center;
 }
 
-header {
-  padding: 1em 0;
-}
-
 #herostatement {
   text-align: center;
   text-rendering: auto;
@@ -64,9 +60,11 @@ q {
 #masthead {
   background-color: #242424;
   width: 100%;
+  padding: 1em 0;
   position: fixed;
-  opacity: .7%;
+  opacity: .7;
   height: 2.5%;
+  z-index: 1;
 }
 /* Trying to shrink masthead into the "three lines" box with bump menu.
 @media (min-width: 50em){
